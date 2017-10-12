@@ -13,6 +13,7 @@ Second:complie SDL2-2.0.5
 	make
 	make install
 third:
-	export PATH=$PATH:/home/xiaohui/learnProject/SDL2-2.0.5/sdlResult/lib/libSDL2-2.0.so.0
+	export LD_LIBRARY_PATH=/home/xiaohui/learnProject/SDL2-2.0.5/sdlResult/lib/
 end:
 	./test
+
